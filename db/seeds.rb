@@ -8,3 +8,15 @@
 
 actor = Actor.new({first_name: "Benedict", last_name: "Cumberbatch", known_for: "Sherlock"})
 actor.save
+
+Movie.create(
+  title: "The Avengers",
+  year: 2012,
+  plot: "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity."
+  )
+
+Movie.create(
+  title: "The Matrix",
+  year: 1999,
+  plot: "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers."
+  )
